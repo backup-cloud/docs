@@ -1,0 +1,16 @@
+exclude: '^$'
+fail_fast: false
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v1.2.3
+    hooks:
+    - id: check-added-large-files
+    - id: detect-private-key
+    - id: end-of-file-fixer
+    - id: trailing-whitespace
+- repo: https://github.com/jumanjihouse/pre-commit-hooks
+  rev: 'master'  # Use the sha / tag you want to point at
+  hooks:
+  - id: markdownlint
+    args:
+    - -r MD046=consistent
