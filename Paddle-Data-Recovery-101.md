@@ -66,7 +66,7 @@ Having the data `offsite` means that there are a number off additional steps and
 6. Connect the `offsite` back up drive.
 7. On the PC navigate to the newly inserted drive using the `terminal`.
 8. Using the S3 bucket's S3 Unique Identifier (S3://) name, use the `awscli` tool to copy the backup files onto the cloud using the command `aws s3 cp ./<NAME-OF-BACKUP-FOLDER> s3://<NAME-OF-BUCKET-CREATED-IN-STEP-2>/export-<BACKUP-DATE>  --recursive --region <BUCKET-REGION>`
-9. Once completed, follow the steps outlined in our [incloud backup files recovery section](#INCLOUD FOLDER)	
+9. Once completed, follow the steps outlined in our [incloud backup files recovery section](#INCLOUD-FOLDER)	
 
 ## `CREATING HEADER TARBALL FOR BACKUP FILES`
 
